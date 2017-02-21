@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Csgo_Simulator</string>
+    <string name="result_activity">Result Activity</string>
+    <string name="select_activity">Select Activity</string>
+    <string name="button_next">Next</string>
+    <string name="button_back">Back</string>
+    <string name="text_vs">VS</string>
+    <string name="button_simple">簡易モード</string>
+    <string name="button_detail">詳細モード</string>
+
+</resources>
