@@ -401,28 +401,28 @@ public class SelectActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SelectActivity.this, ResultActivity.class);
                 intent.putExtra("TeamName1", textView1.getText());
-                Log.e("TeamName1", "data: " + textView1.getText());
+//                Log.e("TeamName1", "data: " + textView1.getText());
 
                 intent.putExtra("TeamName2", textView2.getText());
-                Log.e("TeamName2", "data: " + textView2.getText());
+//                Log.e("TeamName2", "data: " + textView2.getText());
 
                 intent.putExtra("BestOf", bestOf);
-                Log.e("BestOf", "data: " + bestOf);
+//                Log.e("BestOf", "data: " + bestOf);
 
                 intent.putExtra("MapName1", mapName1);
-                Log.e("MapName1", "data: " + mapName1);
+//                Log.e("MapName1", "data: " + mapName1);
 
                 intent.putExtra("MapName2", mapName2);
-                Log.e("MapName1", "data: " + mapName2);
+//                Log.e("MapName1", "data: " + mapName2);
 
                 intent.putExtra("MapName3", mapName3);
-                Log.e("MapName1", "data: " + mapName3);
+//                Log.e("MapName1", "data: " + mapName3);
 
                 intent.putExtra("MapName4", mapName4);
-                Log.e("MapName1", "data: " + mapName4);
+//                Log.e("MapName1", "data: " + mapName4);
 
                 intent.putExtra("MapName5", mapName5);
-                Log.e("MapName1", "data: " + mapName5);
+//                Log.e("MapName1", "data: " + mapName5);
 
                 startActivity(intent);
             }
